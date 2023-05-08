@@ -1,9 +1,9 @@
  html{
-  box-sizing: content-box;
+  box-sizing: border-box;
 }
 
 *, *::after, *::before{
-  box-sizing: border-box;
+  box-sizing: inherit;
   margin: 0;
   padding: 0;
 }
